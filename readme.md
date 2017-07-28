@@ -1,8 +1,8 @@
-﻿# Awesome Android [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Android [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 # [<img src="https://raw.githubusercontent.com/jstumpp/awesome-android/master/awesome-android.png">](https://github.com/jstumpp/awesome-android)
 
-A curated list of awesome Android [libraries](#libraries) and [resources](#resources). For general Java libraries have a look at [awesome-java](https://github.com/akullpp/awesome-java).
+Android最佳实践，实用的 [库](#libraries) 和 [资源](#resources). 对于Java库，可以查看 [awesome-java](https://github.com/akullpp/awesome-java).
 
 - [Emulators](#emulators)
 - [Libraries](#libraries)
@@ -52,7 +52,7 @@ A curated list of awesome Android [libraries](#libraries) and [resources](#resou
 - [Other Awesome Lists](#other-awesome-lists)
 - [Contributing](#contributing)
 
-## Emulators
+## 模拟器
 - [AMIDuOS](https://www.amiduos.com)
 - [AndY](https://andyroid.net)
 - [ARChon](https://archon-runtime.github.io)
@@ -62,58 +62,58 @@ A curated list of awesome Android [libraries](#libraries) and [resources](#resou
 - [Xamarin](https://www.xamarin.com)
 - [Remix OS Player](http://www.jide.com/remixos-player)
 
-## Libraries
+## 库
 
-### Charts
+### 图标
 
-- [AChartEngine](https://github.com/ddanny/achartengine) - Charting Engine.
-- [EazeGraph](https://github.com/blackfizz/EazeGraph) - Chart and graph library.
-- [WilliamChart](https://github.com/diogobernardino/WilliamChart) - Chart library with good motion capabilities.
-- [HelloCharts](https://github.com/lecho/hellocharts-android) - Chart and graph library with support for scaling, scrolling and animations.
-- [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) - An Android chart and graph library supporting scaling and dragging by gesture.
+- [AChartEngine](https://github.com/ddanny/achartengine) - 图标引擎
+- [EazeGraph](https://github.com/blackfizz/EazeGraph) - 图表和图形库
+- [WilliamChart](https://github.com/diogobernardino/WilliamChart) - 具有良好运动特性的图表库
+- [HelloCharts](https://github.com/lecho/hellocharts-android) - 图表和图形库支持缩放，滚动和动画
+- [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) - 一个Android的图表和图形库，支持缩放和手势拖动
 
-### Cloud Services
+### 云服务
 
-- [CloudRail](https://cloudrail.com) - Unified API Library for: Cloud Storage, Social Profiles, Payment, Email, SMS & POIs.
+- [CloudRail](https://cloudrail.com) - 统一的API库：云存储、Social Profiles、支付、电子邮件、短信和兴趣点等Unified API Library for: Cloud Storage, Social Profiles, Payment, Email, SMS & POIs.
 
-### Data binding
+### 数据绑定（Data binding）
 
-- [Anvil](https://github.com/zserge/anvil) - A small library to create reactive UI components, inspired by React. Provides data binding and event listener binding, fits well for MVVM.
-- [RoboBinding](https://github.com/RoboBinding/RoboBinding) - A data-binding Presentation Model (MVVM) framework for the Android platform.
-- [Data Binding Library](https://developer.android.com/topic/libraries/data-binding/index.html) - Official Android Data Binding Library to write declarative layouts and minimize the glue code necessary to bind application logic and layouts.
+- [Anvil](https://github.com/zserge/anvil) - 受到React启发，可创建响应式UI组件的库。提供数据绑定和事件监听绑定，适应于MVVM
+- [RoboBinding](https://github.com/RoboBinding/RoboBinding) - Android平台的一个实现了数据绑定Presentation Model(MVVM) 模式的Android开源框架。 在没有性能损失的前提下(使用源代码生成来替代Java反射)，RoboBinding 帮助你编写更可读，易于测试与维护的UI代码。
+- [Data Binding Library](https://developer.android.com/topic/libraries/data-binding/index.html) - Android官方的数据绑定库，来编写声明式的布局文件和使用最少的代码使逻辑与布局结合
 
-### Dependency Injection
+### 依赖注入
 
-- [RoboGuice](https://github.com/roboguice/roboguice) - Dependency injection framework for Android.
-- [Dagger](https://github.com/square/Dagger) - Dependency injection framework for Java and Android.
-- [Dagger 2](https://github.com/google/dagger) - A fast dependency injector for Android and Java.
-- [Butter Knife](http://jakewharton.github.io/butterknife/) - View "injection" library for Android.
-- [ActivityStarter](https://github.com/MarcinMoskala/ActivityStarter) - Android Library that provide simpler way to start the Activities with multiple arguments.
-- [AndroidAnnotations](https://github.com/androidannotations/androidannotations) - Java annotations with dependency injection at compile time.
+- [RoboGuice](https://github.com/roboguice/roboguice) - Android的依赖注入库
+- [Dagger](https://github.com/square/Dagger) - Java和Android的依赖注入框架
+- [Dagger 2](https://github.com/google/dagger) - 更快的Java和Android的依赖注入框架，是对Dagger的升级
+- [Butter Knife](http://jakewharton.github.io/butterknife/) - Android的View注入库
+- [ActivityStarter](https://github.com/MarcinMoskala/ActivityStarter) - 提供简单的方式启动Activity并传参
+- [AndroidAnnotations](https://github.com/androidannotations/androidannotations) - 编译时依赖注入的注解库
 
-### Game Development
+### 游戏开发
 
-- [AndEngine](http://www.andengine.org/) - Free, Fun and Fast Android 2D OpenGL Game Engine.
-- [Libgdx](https://libgdx.badlogicgames.com/) - Cross-platform game engine and SDK. [Open Source](https://github.com/libGDX/libGDX)
-- [Vuforia](https://www.vuforia.com/) - Augmented Reality library.
-- [Unity](https://unity3d.com/unity/features/multiplatform) - Cross-platform game creation system.
-- [Rajawali](https://github.com/Rajawali/Rajawali) - Android OpenGL ES 2.0/3.0 Engine
-- [Cocos2d-x](http://www.cocos2d-x.org) - Cross-platform 2d game framework.
+- [AndEngine](http://www.andengine.org/) - 免费，有趣，快速的Android 2D游戏引擎
+- [Libgdx](https://libgdx.badlogicgames.com/) - 跨平台的游戏引擎和SDK（基于Java开发的） [Open Source](https://github.com/libGDX/libGDX)
+- [Vuforia](https://www.vuforia.com/) - 增强现实的库
+- [Unity](https://unity3d.com/unity/features/multiplatform) - 跨平台的游戏开发引擎
+- [Rajawali](https://github.com/Rajawali/Rajawali) - Android OpenGL ES 2.0/3.0 引擎
+- [Cocos2d-x](http://www.cocos2d-x.org) - 跨平台的2d游戏引擎
 
-### Security
+### 安全
 
-- [libsignal-protocol-java](https://github.com/whispersystems/libsignal-protocol-java) - A ratcheting forward secrecy protocol that works in synchronous and asynchronous messaging environments.
+- [libsignal-protocol-java](https://github.com/whispersystems/libsignal-protocol-java) - 一个可工作于同步和异步消息环境下的向前保密协议
 
-### GUI
+### UI界面库
 
-- [Pull to refresh](https://developer.android.com/reference/android/support/v4/widget/SwipeRefreshLayout.html) - A swipe refresh layout is available in the v4 support library.
-- [Cardslib](https://github.com/gabrielemariotti/cardslib) - Android Library to build a UI Card.
-- [AndroidStaggeredGrid](https://github.com/etsy/AndroidStaggeredGrid) - Grid view which supports multiple columns with rows of varying sizes.
-- [AndroidQuery](https://github.com/androidquery/androidquery) - Android-Query (AQuery) is a light-weight library for doing asynchronous tasks and manipulating UI elements in Android.
-- [Flow](https://github.com/square/flow) - Library that helps with describing an app as a collection of moderately independent screens.
-- [Crouton](https://github.com/keyboardsurfer/Crouton) - Context sensitive notifications for Android
-- [DragSortListView](https://github.com/bauerca/drag-sort-listview) - Extension of the Android ListView that enables drag-and-drop reordering (No longer maintained).
-- [MaterialProgressBar](https://github.com/DreaminginCodeZH/MaterialProgressBar) - Material design ProgressBar with consistent appearance.
+- [SwipeRefreshLayout（Pull to refresh）](https://developer.android.com/reference/android/support/v4/widget/SwipeRefreshLayout.html) - v4包提供的下拉刷新库
+- [Cardslib](https://github.com/gabrielemariotti/cardslib) - 卡片库
+- [AndroidStaggeredGrid](https://github.com/etsy/AndroidStaggeredGrid) - 支持多列但不同行数的GridView
+- [AndroidQuery](https://github.com/androidquery/androidquery) - 一个轻量级的处理异步任务和操作UI元素的Android库
+- [Flow](https://github.com/square/flow) - 使用一些列的界面来创建一个应用
+- [Crouton](https://github.com/keyboardsurfer/Crouton) - Context敏感的Android通知
+- [DragSortListView](https://github.com/bauerca/drag-sort-listview) - ListView的扩展，支持拖拽和重新排序
+- [MaterialProgressBar](https://github.com/DreaminginCodeZH/MaterialProgressBar) - Material design ProgressBar
 - [AndroidFillableLoaders](https://github.com/JorgeCastilloPrz/AndroidFillableLoaders) - Fillable progress view working with SVG paths. Nice option too for creating interesting app logos.
 - [NexusDialog](https://github.com/dkharrat/NexusDialog) - Allows you to easily and quickly create forms in Android with little code.
 - [Snap RecyclerView Utils](https://github.com/prashantsolanki3/Snap-RecyclerView-Utils) - Populate Single or multiple Layout RecyclerView without creating an Adapter.
@@ -175,22 +175,22 @@ A curated list of awesome Android [libraries](#libraries) and [resources](#resou
 - [Emojicon](https://github.com/rockerhieu/emojicon) - Adds emoticons to your app
 - [MaterialSearchBar](https://github.com/mancj/MaterialSearchBar) - Material Design Search Bar for Android
 
-#### Loading Images
+#### 加载图片
 
-- [Picasso](https://github.com/square/picasso) - A powerful image downloading and caching library for Android.
-- [Universal Image Loader](https://github.com/nostra13/Android-Universal-Image-Loader) - Asynchronous, out of the box loading and caching of images.
-- [Glide](https://github.com/bumptech/glide) - An image loading and caching library for Android focused on smooth scrolling, Recommended by Google.
-- [Fresco](https://github.com/facebook/fresco) - An Android library for managing images and the memory they use.
-- [Glide Bitmap Pool](https://github.com/amitshekhariitbhu/GlideBitmapPool) - Glide Bitmap Pool is a memory management library for reusing the bitmap memory.
-- [MediaPicker](https://github.com/alhazmy13/MediaPicker) - Android Library that lets you to select multiple images, video or voice for Android
+- [Picasso](https://github.com/square/picasso) - 强大的图片下载和缓存库
+- [Universal Image Loader](https://github.com/nostra13/Android-Universal-Image-Loader) - 异步，图片下载和缓存
+- [Glide](https://github.com/bumptech/glide) - Google推荐的图片下载和缓存库
+- [Fresco](https://github.com/facebook/fresco) - 管理图片和使用的内存
+- [Glide Bitmap Pool](https://github.com/amitshekhariitbhu/GlideBitmapPool) - 内存管理，重用Bitmap内存
+- [MediaPicker](https://github.com/alhazmy13/MediaPicker) - 可选择多张图片、视频和音频
 
-#### Video
+#### 视频
 
-- [ijkplayer](https://github.com/Bilibili/ijkplayer) - Android/iOS video player based on FFmpeg n3.2, with MediaCodec, VideoToolbox support.
+- [ijkplayer](https://github.com/Bilibili/ijkplayer) - 基于FFmpeg n3.2、MediaCodec、VideoToolbox的Android/iOS视频播放器
 
 #### Camera
 
-- [MagicalCamera](https://github.com/fabian7593/MagicalCamera) - Simple way to take or select photos of your gallery, with other features for manage pictures.
+- [MagicalCamera](https://github.com/fabian7593/MagicalCamera) - 简单的方式照相和从图库中选择图片，还提供了其他管理图片的功能
 
 ### JSON
 
@@ -256,10 +256,10 @@ A curated list of awesome Android [libraries](#libraries) and [resources](#resou
 
 ### REST
 
-- [Retrofit](http://square.github.io/retrofit/) - Retrofit turns your REST API into a Java interface.
+- [Retrofit](http://square.github.io/retrofit/) - Retrofit 将REST API变为Java接口
 - [Spring for Android - Rest Template](https://github.com/spring-projects/spring-android) - A Rest Client for Android.
 
-### Testing
+### 测试
 
 - [Robotium](https://github.com/robotiumtech/robotium) - Test automation framework for black-box UI tests.
 - [Roboletric](http://robolectric.org/) - Unit test framework to run tests inside the JVM on your workstation, not in the emulator.
@@ -280,12 +280,12 @@ A curated list of awesome Android [libraries](#libraries) and [resources](#resou
 - [Clusterkraf](https://github.com/twotoasters/clusterkraf) - Clustering library for the Google Maps Android API v2
 - [MapScaleView](https://github.com/pengrad/MapScaleView) - Scale bar for Google Maps Android API
 
-### Utility
+### 工具
 
-- [Conceal SharedPreferences](https://github.com/afiqiqmal/ConcealSharedPreference-Android) - Secured Preferences using Facebook Secure Encryption called Conceal.
-- [EventBus](http://greenrobot.github.io/EventBus/) - EventBus is a library that simplifies communication between different parts of your application.
-- [Otto](https://github.com/square/otto) - Event Bus for Android.
-- [Weak handler](https://github.com/badoo/android-weak-handler) - Memory safer implementation of android.os.Handler.
+- [Conceal SharedPreferences](https://github.com/afiqiqmal/ConcealSharedPreference-Android) - 安全的Preference使用了Facebook的安全加密工具Conceal.
+- [EventBus](http://greenrobot.github.io/EventBus/) - 简化组件间的通信
+- [Otto](https://github.com/square/otto) - Android的事件总线库
+- [Weak handler](https://github.com/badoo/android-weak-handler) - android.os.Handler的内存安全实现
 - [Byte Buddy](http://bytebuddy.net) - Runtime code generation library with support for Android.
 - [Secure Preference Manager](https://github.com/prashantsolanki3/Secure-Pref-Manager) - Secure Preference Manager for android. It uses various Encryption to protect your application's Shared Preferences.
 - [LeakCanary](https://github.com/square/leakcanary) - Catch memory leaks as they occur.
@@ -296,14 +296,14 @@ A curated list of awesome Android [libraries](#libraries) and [resources](#resou
 - [EasyDeviceInfo](https://github.com/nisrulz/easydeviceinfo) - Get device information in a super easy way.
 
 
-### Debugging Tools
+### 调试工具
 
 - [Linx](https://github.com/pedrovgs/Lynx) - Show logcat inside the device for debug builds
-- [Scalpel](https://github.com/JakeWharton/scalpel) - View the entire hierarchy in 3d in the phone.
+- [Scalpel](https://github.com/JakeWharton/scalpel) - 在手机中显示全部的View层级
 - [Stetho](https://github.com/facebook/stetho) - Debug hierarchy and network from chrome.
 - [Android Debug Database](https://github.com/amitshekhariitbhu/Android-Debug-Database) - Android Debug Database is a powerful library for debugging databases and shared preferences in Android applications.
 
-### Wireless
+### 无线
 
 - [SmartGattLib](https://github.com/movisens/SmartGattLib) - Simplifies the work with Bluetooth SMART devices (a.k.a. Bluetooth Low Energy in Bluetooth 4.0).
 
@@ -312,13 +312,13 @@ A curated list of awesome Android [libraries](#libraries) and [resources](#resou
 - [Applozic Android Chat SDK](https://github.com/AppLozic/Applozic-Android-SDK) - Android Chat and Messaging SDK for adding real time chat and in-app messaging into your android application.
 - [Qiscus SDK](https://github.com/qiscus/qiscus-sdk-android) - Qiscus SDK is a lightweight and powerful android chat library. Qiscus SDK will allow you to easily integrating Qiscus engine with your apps to make cool chatting application.
 
-#### Custom Dialog
+#### 自定义Dialog
 
 - [MediaRecorderDialog](https://github.com/alhazmy13/MediaRecorderDialog) - Custom Dialog to record audio, store it and play it in your phone.
 - [HijriDatePicker](https://github.com/alhazmy13/HijriDatePicker) - offers a hijri (Islamic Calendar) Date Picker designed on Google's Material Design Principals For Pickers.
 - [Noty](https://github.com/emre1512/Noty) - A simple library for creating animated alerts/dialogs/warnings.
 
-### Version Checking
+### 版本检测
 
  - [AppUpdater](https://github.com/javiersantos/AppUpdater) - comprehensive and feature rich library, including support for checks at Amazon and FDroid.
  - [Gandalf](https://github.com/btkelly/gandalf) - comprehensive features and a "companion" iOS solution.
@@ -436,3 +436,4 @@ Other amazingly awesome lists can be found in the [awesome-awesomeness](https://
 ## Contributing
 
 Your contributions are always welcome! Please read the [contribution guidelines](contributing.md) first.
+
